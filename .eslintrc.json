@@ -1,0 +1,97 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jquery": true
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "script"
+    },
+    "settings": {
+        "react": {
+            "version": "16.10.2"
+        }
+    },
+    "globals": {
+        "define": true,
+        "require": true,
+        "Mprogress": true,
+        "gridster": true,
+        "echarts": true,
+        "qiniu": true,
+        "React": true,
+        "ReactDOM": true,
+        "PropTypes": true,
+        "$setTimeout": true,
+        "$random": true,
+        "$regex": true,
+        "$storage": true,
+        "$val": true,
+        "$urlp": true,
+        "$encode": true,
+        "$decode": true,
+        "$fileCutName": true,
+        "$fileExtName": true,
+        "$gotoSection": true,
+        "$createUploader": true,
+        "$cleanMenu": true,
+        "$cleanMap": true,
+        "$pages": true,
+        "$same": true,
+        "$unmount": true,
+        "$initUserSelect2": true,
+        "$keepModalOpen": true,
+        "rb": true,
+        "renderRbcomp": true,
+        "RbSpinner": true,
+        "RbAlertBox": true,
+        "RbModal": true,
+        "RbModalHandler": true,
+        "RbFrom": true,
+        "RbFormHandler": true,
+        "RbFormElement": true,
+        "RbList": true,
+        "RbListPage": true,
+        "CellRenders": true,
+        "AdvFilter": true,
+        "UserSelector": true,
+        "UserShow": true,
+        "DeleteConfirm": true,
+        "ApprovalProcessor": true,
+        "RbFormModal": true,
+        "DlgAssign": true,
+        "DlgShare": true,
+        "DlgUnshare": true,
+        "DlgShareManager": true,
+        "RbAlert": true,
+        "RbHighbar": true,
+        "ApprovalSubmitForm": true,
+        "ConfigList": true,
+        "ConfigFormDlg": true,
+        "RbPreview": true,
+        "$countdownButton": true,
+        "ChartSelect": true,
+        "Share2": true,
+        "$pgt": true
+    },
+    "rules": {
+        "strict": 0,
+        "indent": [2, 2],
+        "linebreak-style": [0, "unix"],
+        "quotes": [2, "single"],
+        "semi": [2, "never"],
+        "eqeqeq": [2, "always"]
+    }
+}
